@@ -1,0 +1,270 @@
+@import url("fontawesome-all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+
+
+/* Basic */
+
+html {
+	box-sizing: border-box;
+}
+
+
+body {
+	background: #fff;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 19pt;
+	font-weight: 300;
+	line-height: 1.75em;
+}
+
+
+h1 {
+	font-weight: 300;
+	color: #666;
+	line-height: 1.5em;
+}
+
+
+/* Container */
+
+.container {
+	margin: 0 auto;
+	max-width: 100%;
+	width: 1400px;
+}
+
+@media screen and (max-width: 700px) {
+
+	.container {
+		width: 100%;
+	}
+
+}
+
+
+/* Section */
+
+section {
+	margin-bottom: 3em;
+}
+
+
+/* List */
+
+ul {
+	list-style: disc;
+	padding-left: 1em;
+}
+
+ul li {
+	padding-left: 0.5em;
+}
+
+
+
+/* Table */
+
+table {
+	width: 100%;
+	text-align: left;
+}
+
+
+table td {
+	padding: 0.5em 1em 0.5em 1em;
+}
+
+table th {
+	text-align: left;
+	padding: 0.5em 1em 0.5em 1em;
+	color: #fff;
+	background: #222729 ;
+}
+
+
+
+/* link sin visitar */
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+/* link visitado */
+a:visited {
+	color: black;
+}
+
+/* al pasar el ratón */
+a:hover {
+	color: white;
+}
+
+/* seleccionado */
+a:active {
+	color: #882169;
+}
+
+
+
+#contenedor {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	margin: auto;
+	height: 100%;
+	width: 80%;
+	background-color: lightgrey;
+}
+
+
+.columna2 {
+	order: 2;
+	min-width: 500px;
+	padding: 50px;
+	background-color: lightgrey;
+
+}
+
+.separador_largo {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-color: grey;
+	border-style: solid;
+}
+
+.titulo1 {
+	font: 400 50px Bitter, serif;
+	line-height: 20px;
+	color: black;
+	text-align: center;
+}
+
+.titulo2 {
+	font-family: Bitter, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 20px;
+	line-height: 20px;
+	color: black;
+	text-align: left;
+}
+
+.texto_normal {
+	font-family: Bitter, serif;
+	font-size: 16px;
+	text-align: left;
+}
+
+.tablas {
+	border-spacing: 0 15px;
+	min-width: 300px;
+}
+
+.tablas td {
+	text-align: left;
+	min-width: 50px;
+	padding-right: 15px;
+}
+
+.tablas th {
+	font-family: Bitter, serif;
+	font-size: 14px;
+	text-align: left;
+	min-width: 40px;
+	padding-right: 15px;
+}
+
+.tablas tr {
+	font-family: Roboto, serif;
+	font-weight: 300;
+	font-size: 14px;
+	vertical-align: baseline;
+}
+
+.texto_cursiva {
+	font-family: Roboto, serif;
+	font-weight: 300;
+	font-style: italic;
+	font-size: 14px;
+	padding-left: 50px;
+	vertical-align: baseline;
+}
+
+/* Footer */
+
+#footer {
+	text-align: center;
+    background-color: #dce3e2;
+    padding: 3em 0 4em 0;
+    font-size: 0.8em;
+}
+
+#footer .copyright li {
+	display: inline-block;
+	line-height: 1em;
+}
+
+
+/* Imagen */
+
+#headshot {
+	width: 12.5%;
+	float: left;
+	margin-right: 10px;
+}
+
+#headshot img {
+	width: 160%;
+	height: auto;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+}
+
+
+/* Encabezado */
+#name {
+	text-align: center;
+	width: 100%;
+	height: auto;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 736px) {
+
+	/* Basic */
+
+		body {
+			font-size: 14pt;
+		}
+
+		h1 {
+			font-size: 1.5em;
+			letter-spacing: 0;
+			font-weight: 300;
+		}
+
+		.container {
+			padding: 0 15px 0 15px;
+		}
+
+	/* Main */
+
+		#main > section {
+			padding: 2em 0;
+		}
+
+
+	/* Footer */
+
+		#footer .copyright li {
+			display: block;
+			line-height: 1.25em;
+			border: 0;
+			padding: 0;
+			margin: 1em 0 0 0;
+		}
+
+}

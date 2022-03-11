@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/cssEj2.css" />
+	<title>Portfolio web</title>
+</head>
+
+<body>
+
+	<!-- Header -->
+	<div id="header">
+
+		<div class="top">
+
+			<!-- Nav -->
+			<nav id="nav">
+				<ul>
+					<li><a href="#top" id="top-link"><span>Inicio</span></a></li>
+					<li><a href="#portfolio" id="portfolio-link"><span>Sobre mi</span></a></li>
+					<li><a href="#proyectos" id="proyectos-link"><span>Proyectos realizados</span></a></li>
+					<li><a href="#formulario" id="formulario-link"><span>Formulario de contacto</span></a></li>
+				</ul>
+			</nav>
+
+		</div>
+
+
+	</div>
+
+	<!-- Main -->
+	<div id="main">
+
+		<!-- Intro -->
+		<section id="top">
+			<div class="container">
+
+				<header>
+
+					<div id="headshot" class="quickFade">
+						<img src="images/user_icon.jpg" alt="Concepción Márquez" />
+					</div>
+					<h2 class="alt"> <strong>Concepción Márquez Redondo</strong></h2>
+					<p>Estudiante de Ingeniería del Software en la Universidad de Sevilla.</p>
+
+
+				</header>
+
+				<ul class="icons">
+
+					<li><a href="https://www.linkedin.com/">
+							<span class="label">LinkedIn</span></a></li>
+
+					<li><a href="https://github.com"><span class="label">Github</span></a></li>
+					<li>
+						<span class="label">Email: </span></a>concemarquezr@gmail.com</li>
+
+				</ul>
+
+			</div>
+		</section>
+
+		<!-- Portfolio -->
+		<section id="portfolio" class="two">
+			<div class="container">
+
+				<header>
+					<h2>Sobre mi</h2>
+				</header>
+
+				<p class="derecha">Actualmente me encuentro finalizando mis estudios de <spam style="color: #882169">
+						<em> Ingeniería Informática -
+							Ingeniería del Software </em></spam> en la Universidad de Sevilla. <br>
+					Trabajadora, comprometida, organizada. Con capacidad de adaptación, resolución de problemas y
+					trabajo en equipo.<br>
+					En continua formación en las últimas tecnologías <strong>Back End </strong>y <strong>Front
+						End</strong>.<br>
+					Abierta a críticas, aprender de los errores y de los demás. <br>
+				</p>
+
+		</section>
+
+		<!-- Proyectos -->
+		<section id="proyectos" class="three">
+			<div class="container">
+
+				<header>
+					<h2>Proyectos realizados</h2>
+				</header>
+
+				<p>Aquí se hace una muestra de losproyectos que he realizado junto a las tecnologías que se han
+					utilizado para ellos.</p>
+				<div>
+					<article class="item">
+						<a href="https://web.telegram.org"><img src="images/aplicacion.jpg" alt="Aplicacion" /></a>
+						<header>
+							<h3>Telegram web</h3>
+						</header>
+						<p>Telegram es una plataforma de mensajería y VOIP. <br>
+							La aplicación está enfocada en la mensajería instantánea, el envío de varios archivos y la
+							comunicación en masa. <br>
+							Se anunció oficialmente el 14 de agosto de 2013.</p>
+						<p>El modelo de desarrollo de esta apliacación es un <strong>unificado a base de estándares
+								abiertos.</strong>
+						</p>
+					</article>
+				</div>
+
+			</div>
+		</section>
+		<section id="formulario" class="three">
+			<div class="container">
+
+				<div id="contenedor">
+
+
+				</div>
+				<!-- Formulario -->
+				<div id="formulario">
+					<header>
+						<h2>Formulario de contacto</h2>
+					</header>
+
+					<form id="contact_form">
+						<fieldset>
+
+							<legend>Contacta conmigo</legend>
+							<!-- Text input-->
+
+							<div>
+								<label>*Nombre</label>
+								<div>
+									<div>
+										<input name="last_name" placeholder="Nombre" class="form-control" type="text"
+											required>
+									</div>
+								</div>
+							</div>
+
+							<!-- Text input-->
+							<div>
+								<label>Email</label>
+								<div>
+									<div>
+										<input name="email" placeholder="Email" class="form-control" type="email">
+									</div>
+								</div>
+							</div>
+
+
+							<!-- Text input-->
+
+							<div>
+								<label>Teléfono</label>
+								<div>
+									<div>
+										<input name="phone" class="form-control" type="text">
+									</div>
+								</div>
+							</div>
+
+
+							<!-- Select Basic -->
+
+							<div>
+								<label>Género</label>
+								<div>
+									<div>
+										<select name="state">
+											<option value=" ">Elige tu género</option>
+											<option>Mujer</option>
+											<option>Hombre</option>
+											<option>Binario</option>
+											<option>Prefiero no decirlo</option>
+
+										</select>
+									</div>
+								</div>
+							</div>
+
+
+							<!-- radio checks -->
+							<div>
+								<label>¿Has visto errores en la pagina?</label>
+								<div>
+
+									<label>
+										<input type="radio" value="yes" /> Si
+									</label>
+									<br>
+									<label>
+										<input type="radio" value="no" /> No
+									</label>
+
+								</div>
+							</div>
+
+							<!-- Text area -->
+
+							<div>
+								<label>Comentarios</label>
+								<div>
+									<div>
+										<textarea class="form-control" name="comment"></textarea>
+									</div>
+								</div>
+							</div>
+
+
+							<!-- Button -->
+							<div>
+								<label></label>
+								<div>
+									<button type="submit">Enviar</button>
+								</div>
+							</div>
+
+						</fieldset>
+					</form>
+				</div>
+		</section>
+	</div>
+	<!-- Footer -->
+	<div id="footer">
+
+		<p>&copy; All rights reserved.</p>
+		<p>Concepción Márquez Redondo</p>
+
+	</div>
+</body>
+
+</html>
